@@ -1,0 +1,31 @@
+thead {
+  background-color: #A9DEF9;
+}
+
+th, td {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+table, th {
+  border: 1px solid #A9DEF9;
+  border-collapse: collapse;
+}
+
+th {
+  color: white;
+}
+td:nth-child(1) {
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr td {
+      border-bottom: 1px solid #A9DEF9;
+}
